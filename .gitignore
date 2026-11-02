@@ -1,0 +1,7 @@
+.build/
+.swiftpm/
+dist/
+.DS_Store
+verification/build.log
+verification/tests.log
+verification/ui-*

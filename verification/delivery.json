@@ -1,0 +1,26 @@
+{
+  "version": "0.1.0",
+  "architecture": "arm64",
+  "minimum_macos": "14.0",
+  "tests": {
+    "count": 19,
+    "failures": 0
+  },
+  "executable_sha256": "945a99861c16eec429eda420152e895b17abcaafc48445a8f6ec54abdb2779ed",
+  "reference_parity": "not established; original trial expired",
+  "ui_workflows_verified": [
+    "launch",
+    "play/stop",
+    "typed chord detection",
+    "add/undo",
+    "MIDI export",
+    "WAV export",
+    "audio import",
+    "session save/open"
+  ],
+  "midi_output": {
+    "note_ons": 24,
+    "note_offs_including_panic": 148
+  },
+  "screenshot": "verification/workstation.png"
+}
